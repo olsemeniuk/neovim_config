@@ -1,8 +1,8 @@
 vim.g.mapleader = " "
 
 -- NeoTree
-vim.keymap.set('n', '<leader>e', ':Neotree left toggle<CR>', { silent = true })
-vim.keymap.set('n', '<leader>o', ':Neotree focus<CR>', { silent = true })
+vim.keymap.set('n', '<leader>e', ':Neotree float toggle<CR>', { silent = true })
+vim.keymap.set('n', '<leader>o', ':Neotree git_status float toggle<CR>', { silent = true })
 
 
 -- Emmet
